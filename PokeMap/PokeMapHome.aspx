@@ -4,19 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+
     <title></title>
     <style>
       #map {
         width: 99%;
-        height: 800px;                               
+        height: 500px;                               
       }
     </style>
-    
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <img src="Images/PokeMapLogo.png" width="300" />
+    <div class="header">
+        <img src="images/PokeMapLogo.png" width="300" />
     </div>
 
     <div id="map"></div>
@@ -31,15 +31,9 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHJnU405BWwQzI3rYUJ2seWDWsqndX4RA&callback=initMap"
     async defer></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script>
-            $(function(){
-                $.get("http://10.9.1.215:5100/").done(function(data){
-                    console.log(data);
-                });
-            });
-        </script>
 
+        <asp:ImageButton ID="imgbtnPokedex" runat="server" src="images/Pokedex.png" Height="150px" Width="170px" OnClick="imgbtnPokedex_Click"/>
+        <label><< Pokedex Page.</label>
     </form>
 </body>
 </html>

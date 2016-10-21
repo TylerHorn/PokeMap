@@ -11,7 +11,12 @@ namespace PokeMap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            UnobtrusiveValidationMode = System.Web.UI.UnobtrusiveValidationMode.None;
+
+        }
+
+        protected void imgbtnPokedex_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Pokedex.aspx");
         }
     }
 }
