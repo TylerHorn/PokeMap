@@ -270,7 +270,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="PokeMap.Master" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="PokemonCharacterQueryDisplay_WebForm.aspx" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
@@ -304,12 +306,26 @@
     <Compile Include="Pokedex.aspx.designer.cs">
       <DependentUpon>Pokedex.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PokeMap.Master.cs">
+      <DependentUpon>PokeMap.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PokeMap.Master.designer.cs">
+      <DependentUpon>PokeMap.Master</DependentUpon>
+    </Compile>
     <Compile Include="PokeMapHome.aspx.cs">
       <DependentUpon>PokeMapHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PokeMapHome.aspx.designer.cs">
       <DependentUpon>PokeMapHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PokemonCharacterQueryDisplay_WebForm.aspx.cs">
+      <DependentUpon>PokemonCharacterQueryDisplay_WebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PokemonCharacterQueryDisplay_WebForm.aspx.designer.cs">
+      <DependentUpon>PokemonCharacterQueryDisplay_WebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
