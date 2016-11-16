@@ -17,5 +17,13 @@ namespace WebApplication1
         {
             
         }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            Button clicked = (Button)sender;
+            string identity = sender.ToString(); // will add the attribute to be accessed when available.  this will be use to provide peramiter to query function
+        }
     }
+
+    
 }
