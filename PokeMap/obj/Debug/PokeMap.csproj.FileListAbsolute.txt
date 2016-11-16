@@ -64,3 +64,36 @@ C:\Users\Joey\Desktop\PokeMap Project\PokeMap\PokeMap\PokeMap\bin\Microsoft.Code
 C:\Users\Joey\Desktop\PokeMap Project\PokeMap\PokeMap\PokeMap\obj\Debug\PokeMap.csprojResolveAssemblyReference.cache
 C:\Users\Joey\Desktop\PokeMap Project\PokeMap\PokeMap\PokeMap\obj\Debug\PokeMap.dll
 C:\Users\Joey\Desktop\PokeMap Project\PokeMap\PokeMap\PokeMap\obj\Debug\PokeMap.pdb
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\ApplicationInsights.config
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\csc.exe
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\vbc.exe
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\VBCSCompiler.exe
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\PokeMap.dll.config
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\PokeMap.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\PokeMap.pdb
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.Web.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.ApplicationInsights.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.Web.xml
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.ApplicationInsights.xml
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\obj\Debug\PokeMap.csprojResolveAssemblyReference.cache
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\obj\Debug\PokeMap.dll
+C:\Users\clams\Desktop\Pokemon_Project\PokeMap\PokeMap\obj\Debug\PokeMap.pdb
