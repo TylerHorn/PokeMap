@@ -34,6 +34,7 @@
 
         <asp:ImageButton ID="imgbtnPokedex" runat="server" src="images/Pokedex.png" Height="150px" Width="170px" OnClick="imgbtnPokedex_Click"/>
         <label><< Pokedex Page.</label>
+        <asp:Button runat="server" OnClick="Unnamed1_Click" />
     </form>
 </body>
 </html>

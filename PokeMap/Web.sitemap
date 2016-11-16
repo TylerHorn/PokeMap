@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="SimRoot">
+        <siteMapNode url="~/PokeMapHome.aspx" title="Home" />
+        <siteMapNode url="~/Pokedex.aspx" title="Pokedex" />
+        <siteMapNode url="~/PokemonQueryDisplay_WebForm.aspx" title="Character Info" />
+    </siteMapNode>
+</siteMap>
