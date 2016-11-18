@@ -1,6 +1,6 @@
 ﻿body {
     background-color: gray;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 p {
@@ -11,8 +11,14 @@ label {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .navbar navbar-fixed-top{
     background-color:white;
 }
 
 
+=======
+.navbar-header{
+    background-color:gray;
+}
+>>>>>>> origin/Tyhorn
