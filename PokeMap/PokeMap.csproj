@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\PokemonCharacterIno.mdf" />
+    <Content Include="App_Data\PokemonCharacterIno_log.ldf" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -267,7 +269,11 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="PokemonInfoDispaly.aspx" />
+    <Content Include="PokemonQueryDisplay_WebForm.aspx" />
+    <Content Include="QueryDisplay.aspx" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
@@ -308,10 +314,30 @@
     <Compile Include="PokeMapHome.aspx.designer.cs">
       <DependentUpon>PokeMapHome.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PokemonInfoDispaly.aspx.cs">
+      <DependentUpon>PokemonInfoDispaly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PokemonInfoDispaly.aspx.designer.cs">
+      <DependentUpon>PokemonInfoDispaly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PokemonQueryDisplay_WebForm.aspx.cs">
+      <DependentUpon>PokemonQueryDisplay_WebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PokemonQueryDisplay_WebForm.aspx.designer.cs">
+      <DependentUpon>PokemonQueryDisplay_WebForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryDisplay.aspx.cs">
+      <DependentUpon>QueryDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryDisplay.aspx.designer.cs">
+      <DependentUpon>QueryDisplay.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
