@@ -1,5 +1,6 @@
 ﻿body {
     background-color: gray;
+    margin-top: 150px;
 }
 
 p {
@@ -8,4 +9,8 @@ p {
 
 label {
     text-align: center;
+}
+
+.navbar-header{
+    background-color:black;
 }
