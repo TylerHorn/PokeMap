@@ -11,12 +11,13 @@ namespace PokeMap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         protected void imgbtnPokedex_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("~/Pokedex.aspx");
         }
+
     }
 }
