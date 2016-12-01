@@ -31,6 +31,15 @@ namespace PokeMap {
         protected global::System.Web.UI.WebControls.Label l_PokemonName;
         
         /// <summary>
+        /// l_PokemonNameLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label l_PokemonNameLabel;
+        
+        /// <summary>
         /// l_PokemonID control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace PokeMap {
         protected global::System.Web.UI.WebControls.Label l_PokemonID;
         
         /// <summary>
+        /// l_PokemonIDLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label l_PokemonIDLabel;
+        
+        /// <summary>
         /// l_PokemonType control.
         /// </summary>
         /// <remarks>
@@ -47,5 +65,14 @@ namespace PokeMap {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label l_PokemonType;
+        
+        /// <summary>
+        /// l_PokemonTypeLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label l_PokemonTypeLabel;
     }
 }
