@@ -13,16 +13,16 @@
         <form id="form1" runat="server">
             <div class="navbar-header">
             <div>
-                <asp:Label ID="l_PokemonName" runat="server" Text="Name: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid"></asp:Label>
-                <asp:Label ID="l_PokemonNameLabel" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="l_PokemonName" runat="server" Text="Name: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+                <asp:Label ID="l_PokemonNameLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
            </div>
         <div>
-            <asp:Label ID="l_PokemonID" runat="server" Text="ID#: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid"></asp:Label>
-            <asp:Label ID="l_PokemonIDLabel" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="l_PokemonID" runat="server" Text="ID#: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+            <asp:Label ID="l_PokemonIDLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
         </div>
         <div>
-            <asp:Label ID="l_PokemonType" runat="server" Text="Type: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid"></asp:Label>
-            <asp:Label ID="l_PokemonTypeLabel" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="l_PokemonType" runat="server" Text="Type: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+            <asp:Label ID="l_PokemonTypeLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
         </div>
         </div>
         </form>
