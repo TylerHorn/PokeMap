@@ -8,9 +8,12 @@
     <link href="Content/main.css" rel="stylesheet" />
     <title></title>
 </head>
-<body>
+    <div class ="head">
+         <img src="images/PokeMapLogo.png" width="300" />
+    </div>
+<body>   
     <div class="container">
-        <form id="form1" runat="server">
+        <form id="form1" runat="server"> 
             <div class="navbar-header">
             <div>
                 <asp:Label ID="l_PokemonName" runat="server" Text="Name: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
