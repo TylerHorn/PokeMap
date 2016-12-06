@@ -27,6 +27,14 @@
             <asp:Label ID="l_PokemonType" runat="server" Text="Type: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
             <asp:Label ID="l_PokemonTypeLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
         </div>
+        <div>
+            <asp:Label ID="l_PokemonDescription" runat="server" Text="Description: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+            <asp:Label ID="l_PokemonDescriptionLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
+        </div>
+        <div>
+            <asp:Label ID="l_PokemonCatchable" runat="server" Text="Catchable? " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+            <asp:Label ID="l_PokemonCatchableLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
+        </div>
         </div>
         </form>
     </div>
