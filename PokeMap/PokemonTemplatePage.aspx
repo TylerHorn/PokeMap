@@ -15,27 +15,36 @@
     <div class="container">
         <form id="form1" runat="server"> 
             <div class="navbar-header">
-            <div>
-                <asp:Label ID="l_PokemonName" runat="server" Text="Name: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
-                <asp:Label ID="l_PokemonNameLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
-           </div>
-        <div>
+  
+
+        <asp:Repeater ID="r_PokemonDisplay" runat="server" DataSourceID="pokemon_data_source">
+            <ItemTemplate>
+                <div>
+            <asp:Label ID="l_PokemonName" runat="server" Text="Name: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+            <asp:Label ID="l_PokemonNameLabel" runat="server" Text='<%Eval("Name") %>' Font-Bold="True"></asp:Label>
+                </div>
+                <div>
             <asp:Label ID="l_PokemonID" runat="server" Text="ID#: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
-            <asp:Label ID="l_PokemonIDLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
-        </div>
-        <div>
-            <asp:Label ID="l_PokemonType" runat="server" Text="Type: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
-            <asp:Label ID="l_PokemonTypeLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
-        </div>
-        <div>
-            <asp:Label ID="l_PokemonDescription" runat="server" Text="Description: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
-            <asp:Label ID="l_PokemonDescriptionLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
-        </div>
-        <div>
-            <asp:Label ID="l_PokemonCatchable" runat="server" Text="Catchable? " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
-            <asp:Label ID="l_PokemonCatchableLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
-        </div>
-                <asp:Repeater ID="r_PokemonDisplay" runat="server"></asp:Repeater>
+            <asp:Label ID="l_PokemonIDLabel" runat="server" Text='<%Eval("Pokedex Num") %>' Font-Bold="True"></asp:Label>
+                </div>
+            <div>
+                <asp:Label ID="l_PokemonType" runat="server" Text="Type: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+                <asp:Label ID="l_PokemonTypeLabel" runat="server" Text='<%Eval("Type") %>' Font-Bold="True"></asp:Label>
+            </div>
+            <div>
+                <asp:Label ID="l_PokemonDescription" runat="server" Text="Description: " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+                <asp:Label ID="l_PokemonDescriptionLabel" runat="server" Text='<%Eval("Description") %>' Font-Bold="True"></asp:Label>
+            </div>
+            <div>
+                <asp:Label ID="l_PokemonCatchable" runat="server" Text="Catchable? " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
+                <asp:Label ID="l_PokemonCatchableLabel" runat="server" Text='<%Eval("Catchable") %>' Font-Bold="True"></asp:Label>
+            </div>
+            </ItemTemplate>
+
+
+
+
+        </asp:Repeater>
         </div>
         </form>
     </div>
