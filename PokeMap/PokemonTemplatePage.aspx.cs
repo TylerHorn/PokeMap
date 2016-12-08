@@ -11,7 +11,15 @@ namespace PokeMap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Line 1 =creating an instance of the DataClassesDataContext class, this is the entry point into the Database
+            //Line 2 = LINQ query for pulling the needed data from database.
+            //Line 3 = Binding data to GridView
 
+            DataClassesDataContext context = new DataClassesDataContext();
+            r_PokemonDisplay.DataSource = from PokemonInfo in context.PokemonInfos
+                                                     where PokemonInfo.Pokedex_Num == "001" // ID HERE
+                                                     select PokemonInfo;
+            r_PokemonDisplay.DataBind();
         }
     }
 }
