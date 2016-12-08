@@ -110,5 +110,14 @@ namespace PokeMap {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label l_PokemonCatchableLabel;
+        
+        /// <summary>
+        /// r_PokemonDisplay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater r_PokemonDisplay;
     }
 }

@@ -35,6 +35,7 @@
             <asp:Label ID="l_PokemonCatchable" runat="server" Text="Catchable? " BackColor="Yellow" BorderColor="Red" BorderStyle="Solid" Font-Bold="True"></asp:Label>
             <asp:Label ID="l_PokemonCatchableLabel" runat="server" Text="Label" Font-Bold="True"></asp:Label>
         </div>
+                <asp:Repeater ID="r_PokemonDisplay" runat="server"></asp:Repeater>
         </div>
         </form>
     </div>
