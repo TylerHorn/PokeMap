@@ -1,0 +1,79 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Bill
+# Your branch is up-to-date with 'origin/Bill'.
+#
+# Changes to be committed:
+#	deleted:    WebApplication1/Pokedex.sln
+#	deleted:    WebApplication1/Pokedex.suo
+#	deleted:    WebApplication1/Pokedex.v12.suo
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap-theme.css
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap-theme.css.map
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap-theme.min.css
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap-theme.min.css.map
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap.css
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap.css.map
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap.min.css
+#	deleted:    WebApplication1/WebApplication1/Content/bootstrap.min.css.map
+#	deleted:    WebApplication1/WebApplication1/Content/main.css
+#	deleted:    WebApplication1/WebApplication1/Pokedex.aspx
+#	deleted:    WebApplication1/WebApplication1/Pokedex.aspx.cs
+#	deleted:    WebApplication1/WebApplication1/Pokedex.aspx.designer.cs
+#	deleted:    WebApplication1/WebApplication1/Properties/AssemblyInfo.cs
+#	deleted:    WebApplication1/WebApplication1/Scripts/bootstrap.js
+#	deleted:    WebApplication1/WebApplication1/Scripts/bootstrap.min.js
+#	deleted:    WebApplication1/WebApplication1/Scripts/jquery-1.9.1.intellisense.js
+#	deleted:    WebApplication1/WebApplication1/Scripts/jquery-1.9.1.js
+#	deleted:    WebApplication1/WebApplication1/Scripts/jquery-1.9.1.min.js
+#	deleted:    WebApplication1/WebApplication1/Scripts/jquery-1.9.1.min.map
+#	deleted:    WebApplication1/WebApplication1/Web.Debug.config
+#	deleted:    WebApplication1/WebApplication1/Web.Release.config
+#	deleted:    WebApplication1/WebApplication1/Web.config
+#	deleted:    WebApplication1/WebApplication1/bin/WebApplication1.dll
+#	deleted:    WebApplication1/WebApplication1/bin/WebApplication1.dll.config
+#	deleted:    WebApplication1/WebApplication1/bin/WebApplication1.pdb
+#	deleted:    WebApplication1/WebApplication1/fonts/glyphicons-halflings-regular.eot
+#	deleted:    WebApplication1/WebApplication1/fonts/glyphicons-halflings-regular.svg
+#	deleted:    WebApplication1/WebApplication1/fonts/glyphicons-halflings-regular.ttf
+#	deleted:    WebApplication1/WebApplication1/fonts/glyphicons-halflings-regular.woff
+#	deleted:    WebApplication1/WebApplication1/fonts/glyphicons-halflings-regular.woff2
+#	deleted:    WebApplication1/WebApplication1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	deleted:    WebApplication1/WebApplication1/obj/Debug/WebApplication1.csproj.FileListAbsolute.txt
+#	deleted:    WebApplication1/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+#	deleted:    WebApplication1/WebApplication1/obj/Debug/WebApplication1.dll
+#	deleted:    WebApplication1/WebApplication1/obj/Debug/WebApplication1.pdb
+#	deleted:    WebApplication1/WebApplication1/obj/Debug/pokedex.csproj.FileListAbsolute.txt
+#	deleted:    WebApplication1/WebApplication1/packages.config
+#	deleted:    WebApplication1/WebApplication1/pokedex.csproj
+#	deleted:    WebApplication1/WebApplication1/pokedex.csproj.user
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/bootstrap.3.3.7.nupkg
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/bootstrap.3.3.7.nuspec
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.css
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.css.map
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.min.css
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.min.css.map
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap.css
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap.css.map
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap.min.css
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Content/bootstrap.min.css.map
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Scripts/bootstrap.js
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/Scripts/bootstrap.min.js
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.eot
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.svg
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.ttf
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.woff
+#	deleted:    WebApplication1/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.woff2
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Content/Scripts/jquery-1.9.1-vsdoc.js
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Content/Scripts/jquery-1.9.1.js
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Content/Scripts/jquery-1.9.1.min.js
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Content/Scripts/jquery-1.9.1.min.map
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Tools/common.ps1
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Tools/install.ps1
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Tools/jquery-1.9.1.intellisense.js
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/Tools/uninstall.ps1
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/jQuery.1.9.1.nupkg
+#	deleted:    WebApplication1/packages/jQuery.1.9.1/jQuery.1.9.1.nuspec
+#	deleted:    WebApplication1/packages/repositories.config
+#
+
