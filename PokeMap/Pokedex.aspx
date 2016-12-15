@@ -4,8 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+   
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/main.css" rel="stylesheet" />
+      
     <title></title>
 </head>
 
@@ -18,24 +20,23 @@
             <div class="navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
-                    <img src="images/PokeMapLogo.png" width="300"  />
+                    <img src="images/pokedexlogo.png" width="500"  />
                         <div class="input-group">
                         <span class="input-group-btn">
                         <button class="btn btn-default" type="button">Go!</button>
                         </span>
-                        <input type="text" class="form-control" placeholder="Search for..." />
-                        </div>
-                    </div>
+                          <input type="text" class="form-control" placeholder="Search is currently not functional" />
+                            </div>
+                         </div>
                 </div>
             </div>
-            
-                   
+                                         
             <div class="row">
-        
+                                       
             <div class="col-xs-3">
                 <div class="thumbnail">
                     <p>Bulbasaur</p>
-                    <asp:ImageButton ID="ImageButton1" runat="server"   ImageUrl="Images/001.png"  CssClass="imgcenter" OnClick="ImageButton1_Click" />
+                    <asp:ImageButton ID="ImageButton1" runat="server"   ImageUrl="Images/001.png"  CssClass="imgcenter" />
                     <p>Pokedex #001</p>
                     <p>Grass Type Pokemon</p>
                     
@@ -152,6 +153,7 @@
                     <p>Bug Type Pokemon</p>
                 </div>
             </div>
+
             <div class="col-xs-3">
                 <div class="thumbnail">
                     <p>Beedrill</p>
@@ -210,7 +212,7 @@
                 <div class="thumbnail">
                     <p>Spearow</p>
                     <asp:ImageButton ID="ImageButton21" runat="server" ImageUrl="Images/021.png"   CssClass="imgcenter"/>
-                   
+              <div class="space"></div>
                     <p>Pokedex #021</p>
                     <p>Normal Type Pokemon</p>
                 </div>
@@ -262,11 +264,12 @@
             </div>
             <div class="col-xs-3">
                 <div class="thumbnail">
-                    <p>Sandshrew</p>
+                    <div class="element" id="sandshrew"> <p>Sandshrew</p></div>
                     <asp:ImageButton ID="ImageButton27" runat="server" ImageUrl="Images/027.png"   CssClass="imgcenter"/>
                     
                     <p>Pokedex #027</p>
                     <p>Ground Type Pokemon</p>
+                    
                 </div>
             </div>
             <div class="col-xs-3">
@@ -1389,11 +1392,14 @@
                 </div>
             </div>
 
-            </div>
+                  
+              </div>
 
         </div>
 
 
     </form>
+    
+   
 </body>
 </html>
