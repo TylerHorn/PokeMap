@@ -1,6 +1,6 @@
 ﻿body {
     background-color: gray;
-    margin-top: 150px;
+    margin-top: 275px;
 }
 
 p {
@@ -29,12 +29,7 @@ label {
 
 
 .navbar-header{
- /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7d300+27,3f4c6b+100 */
-background: rgb(183,211,0); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(183,211,0,1) 27%, rgba(63,76,107,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(183,211,0,1) 27%,rgba(63,76,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(183,211,0,1) 27%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7d300', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
 
-
+background: black;
+    
 }
