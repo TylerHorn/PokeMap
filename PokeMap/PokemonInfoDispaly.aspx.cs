@@ -16,7 +16,7 @@ namespace PokeMap
         protected void Page_Load(object sender, EventArgs e)
         {
             String connectionString = "Provider=Microsoft.Jet.Oledb.4.0;Data Source=~\\excelData\\PokemonInfo.xlsx; Extended Properties=Excel 8.0";
-            OleDbConnection connection = new OleDBConnection(connectionString);
+            OleDbConnection connection = new OleDbConnection(connectionString);
 
         }
     }

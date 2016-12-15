@@ -18,7 +18,7 @@
             <div class="navbar navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
-                    <img src="images/PokeMapLogo.png" width="300" style="margin: 5px;" />
+                    <img class="logo" src="images/PokeMapLogo.png" width="500" style="margin: 5px;" />
                         <div class="input-group">
                         <span class="input-group-btn">
                         <button class="btn btn-default" type="button">Go!</button>

@@ -1,4 +1,9 @@
 ﻿body {
+    background-image:url("../images/backdrop4.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
       .controls {
@@ -47,6 +52,26 @@
       }
 
        #map {
-        width: 99%;
-        height: 500px;                               
+        width: 90%;
+        height: 600px;      
+        position: fixed;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        margin-bottom: 15%;
+        
+                               
       }
+
+   img.footer {
+    width: 100%;
+    margin-bottom: -15px;
+    
+    }
+
+   .PokedexBtn:hover{
+       opacity: 0.3;
+   }
+    
+
+    

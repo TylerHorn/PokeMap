@@ -1,6 +1,6 @@
 ﻿body {
     background-color: gray;
-    margin-top: 150px;
+    margin-top: 350px;
 }
 
 p {
@@ -22,3 +22,8 @@ label {
     background-color:gray;
 }
 >>>>>>> origin/Tyhorn
+
+
+.logo:hover{
+    opacity: 0.3;
+}
