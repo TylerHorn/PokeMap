@@ -1,29 +1,44 @@
 ﻿body {
-    background-color: gray;
-    margin-top: 350px;
+   background-image:url("../images/backdrop4.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   margin-top: 350px;
 }
 
 p {
-    text-align: center;
+   text-align: center;
 }
 
 label {
-    text-align: center;
+   text-align: center;
 }
 
-<<<<<<< HEAD
-.navbar navbar-fixed-top{
-    background-color:white;
+.input-group {
+   margin: 10px
+}
+
+.imgcenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 175px;
+   max-width: 100%;
+}
+
+.row {
+   margin-top: 10px;
 }
 
 
-=======
 .navbar-header{
-    background-color:gray;
+background-color:#79C9FA;
+width: 100%;
 }
->>>>>>> origin/Tyhorn
+
+.floatRight{
+    float: right;
+}
 
 
-.logo:hover{
-    opacity: 0.3;
-}

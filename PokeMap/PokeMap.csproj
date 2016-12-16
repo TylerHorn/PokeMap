@@ -96,6 +96,9 @@
   <ItemGroup>
     <Content Include="App_Data\PokemonCharacterIno.mdf" />
     <Content Include="App_Data\PokemonCharacterIno_log.ldf" />
+    <Content Include="App_Themes\Instinct\Instinct.css" />
+    <Content Include="App_Themes\Mystic\Mystic.css" />
+    <Content Include="App_Themes\Valor\Valor.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -407,10 +410,17 @@
     <Content Include="images\Icons\97.png" />
     <Content Include="images\Icons\98.png" />
     <Content Include="images\Icons\99.png" />
+    <Content Include="images\Icons\instinctIcon.png" />
+    <Content Include="images\Icons\mysticIcon.png" />
     <Content Include="images\Icons\pokesition.png" />
+    <Content Include="images\Icons\valorIcon.png" />
     <Content Include="images\PokedexButton.png" />
-    <Content Include="images\pokelogo.png" />
+    <Content Include="images\Pokedexlogo.png" />
     <Content Include="images\PokeMap Footer.png" />
+    <Content Include="images\Themes\instinctBackground.png" />
+    <Content Include="images\Themes\mysticBackground.jpg" />
+    <Content Include="images\Themes\team.png" />
+    <Content Include="images\Themes\valorBackground.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -426,8 +436,6 @@
     <Content Include="ClassDiagram1.cd" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="PokemonInfoDispaly.aspx" />
-    <Content Include="PokemonQueryDisplay_WebForm.aspx" />
-    <Content Include="QueryDisplay.aspx" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
@@ -476,21 +484,7 @@
     <Compile Include="PokemonInfoDispaly.aspx.designer.cs">
       <DependentUpon>PokemonInfoDispaly.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PokemonQueryDisplay_WebForm.aspx.cs">
-      <DependentUpon>PokemonQueryDisplay_WebForm.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PokemonQueryDisplay_WebForm.aspx.designer.cs">
-      <DependentUpon>PokemonQueryDisplay_WebForm.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueryDisplay.aspx.cs">
-      <DependentUpon>QueryDisplay.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="QueryDisplay.aspx.designer.cs">
-      <DependentUpon>QueryDisplay.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
